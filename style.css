@@ -1,0 +1,43 @@
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1199px;
+  width: 80%;
+  margin: 0 auto;
+}
+.top {
+  background: url(./images/top-banner.png) no-repeat top left;
+}
+header {
+  display: flex;
+}
+.col-7 {
+  width: 70%;
+}
+.col-7 h1 {
+  font-size: 50px;
+}
+.col-7 h1 span {
+  color: yellow;
+}
+.col-5 {
+  width: 30%;
+}
+
+.btn {
+  background-color: tomato;
+  cursor: pointer;
+  color: #fff;
+  font-size: 25px;
+  padding: 10px 20px;
+}
+
+.dream-big {
+  padding: 80px 0;
+}
+
+.content {
+  display: flex;
+  column-gap: 50px;
+}
